@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>친구목록</title>
+</head>
+
+<body>
+  <style>
+    th,
+    td {
+      padding: 10px 20px;
+    }
+  </style>
+  <header>
+    <h2>친구목록</h2>
+  </header>
+  <main>
+    <!-- 표(table) 3명 연락처.주소-->
+    <table border="2">
+      <!-- 타이틀 thead-->
+      <thead>
+        <tr>
+          <!-- 행(tr) -->
+          <th>친구이름</th>
+          <th>연락처</th>
+          <th>주소</th>
+          <th>사진</th>
+        </tr>
+      </thead>
+      <!-- 데이터 tbody(td) -->
+      <tbody>
+        <tr>
+          <td>Yamajaki</td>
+          <td>discord - yanki#7712</td>
+          <td>Simonoseki </td>
+          <td rowspan="2"><img src="images/f01.png" width="100px"></td>
+        </tr>
+        <tr>
+          <td>Watase</td>
+          <td>discord - watson#3192</td>
+          <td>Osaka</td>
+
+        </tr>
+        <tr>
+          <td>Komori</td>
+          <td>discord - kogoro#1111</td>
+          <td>Dokyo</td>
+          <td><img src="images/f03.png" width="100px"></td>
+        </tr>
+      </tbody>
+    </table>
+    <a href="resuml.html"><img src="images/04.png" width="100px"></a>
+
+
+    <table border="1">
+      <colgroup>
+        <col style="width: 200px;color: rgb(238, 250, 187);font-size: large;">
+        <col style="width: 250px;color: rgb(238, 250, 187);font-size: large;">
+        <col style="width: 250px;color: rgb(238, 250, 187);font-size: large;">
+      </colgroup>
+
+      <thead>
+
+        <tr>
+          <th style="background-color: blueviolet;">종류</th>
+          <th style="background-color: blueviolet;">설명</th>
+          <th style="background-color: blueviolet;">용도</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>
+            <p>GIF</p>
+            <p>(Graphics Interchange Format)</p>
+          </td>
+          <td>간단한 애니메이션을 지원합니다. 표시할 수 있는 색상 수가 최대 256가지라서 복잡한 이미지에는 적합하지 않습니다.</td>
+          <td>간단한 애니메이션이나 아이콘</td>
+        </tr>
+        <tr>
+          <td>
+            <p>JPG/JPEG</p>
+            <p>(jojnt photofraphic experts group)</p>
+          </td>
+          <td>고해상도 사진을 작은 파일 크기로 압축할 수 있어서 널리 사용합니다. 하지만 손실 압축 방식을 사용하므로 편집 과정에서 화질이 떨어질 수 있다는 단점이 있습니다.</td>
+          <td>사진이나 그래픽</td>
+        </tr>
+        <tr>
+          <td>
+            PNG<br>(portable network graphics)
+          </td>
+          <td>투명 배경을 지원합니다. 무손실 압축을 사용하므로 JPG보다 이미지를 더 나은 화질로 제공할 수 있습니다. 단, JPG에 비해 파일의 크기가 커질 수 있습니다.</td>
+          <td>화질 저하 없이 투명 배경이 필요한 그래픽</td>
+        </tr>
+        <tr>
+          <td>WebP</td>
+          <td>GIF와 JPG,PNG의 장점을 하나로 결합한 이미지 형식입니다. 최신 형식이므로 오래된 브라우저에서는 지원하지 않아 브라우저 호환성을 고려해야 합니다.</td>
+          <td>고해상도의 이미지를 작은 파일 크기로 제공할 때</td>
+        </tr>
+      </tbody>
+    </table>
+
+  </main>
+  <footer></footer>
+</body>
+
+</html>
