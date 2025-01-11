@@ -1,20 +1,43 @@
 <!DOCTYPE html>
 <html lang="ko">
+
 <head>
   <meta charset="UTF-8">
   <title>연습문제 2</title>
   <style>
-    table, td, th {
-      border:1px solid #ccc;
+    table,
+    td,
+    th {
+      border: 3px solid #ccc;
+      border-collapse: collapse;
     }
-    td, th {
-      padding:10px 20px;
+
+    td,
+    th {
+      padding: 10px 20px;
     }
-    td:last-child{
-      width:200px;
+
+    button{
+      width: 80px;
+      height: 30px;
+    }
+    /* block vs inline 레벨 */
+    input{
+      padding: 3px;
+      background-color: rgb(0, 0, 0);
+      color: #ccc;
+    }
+
+    select{
+      padding: 03px;
+    }
+
+    td:last-child {
+      width: 200px;
     }
   </style>
 </head>
+<<<<<<< HEAD
 <body>  
   <h1>수습 국원 지원 양식</h1>
   <table>
@@ -37,5 +60,40 @@
     </tr>
   </table>
   <input type="submit" value="제출하기">
+=======
+
+<body>
+  <div style="border: 1px solid; padding: 5px 30px 40px 5px; width: 600px; height: 300px;">
+
+    <h1>수습 국원 지원 양식</h1>
+    <table>
+      <tr>
+        <th rowspan="3">개인정보</th>
+        <th>이름</th>
+        <td><input type="text"></td>
+      </tr>
+      <tr>
+        <th>학과/학번</th>
+        <td><input type="text"></td>
+      </tr>
+      <tr>
+        <th>연락처</th>
+        <td><input type="text"></td>
+      </tr>
+      <tr>
+        <th>지원 분야</th>
+        <td colspan="2">
+          <select>
+            <option> PD </option>
+            <option>엔지니어</option>
+            <option>아나운서</option>
+          </select>
+        </td>
+      </tr>
+      <td colspan="3" align="center"><button>지원하기</button></td>
+    </table>
+  </div>
+>>>>>>> 0548461c83224694554a35fa7b6a7a7e494fbc71
 </body>
+
 </html>

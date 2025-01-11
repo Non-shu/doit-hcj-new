@@ -4,6 +4,7 @@
 <head>
 	<meta charset="UTF-8">
 	<title>연습문제 2</title>
+<<<<<<< HEAD
 	<style>
 		#container {
 			width: 520px;
@@ -28,6 +29,12 @@
 			line-height: 30px;
 		}
 	</style>
+=======
+		<!-- ID값 설정하고 싶을 경우 - #  사용  */>
+		/* padding 값 2개만주면 좌우,위아래 순서 *-->
+
+	<link rel="stylesheet" href="style.css">
+>>>>>>> 0548461c83224694554a35fa7b6a7a7e494fbc71
 </head>
 
 <body>
@@ -36,6 +43,7 @@
 		<p>HTML, CSS, Javascript에 대한 기술적 이해와 경험이 있는 분을 찾습니다.</p>
 		<hr>
 		<form>
+<<<<<<< HEAD
 			<div>
 				<h3>개인정보</h3>
 				<ul>
@@ -54,6 +62,37 @@
 					<input type="submit" value="접수하기">
 					<input type="reset" value="다시쓰기">
 				</div>
+=======
+			<h4>개인 정보</h4>
+			<ul>
+				<li><label for="sname">이름</label>
+					<input type="text" id="sname" autofocus placeholder="공백 없이 입력하세요."></li>
+				<li>
+					<label for="snumber">연락처</label>
+					<input type="text" name="" id="snumber">
+				</li>
+			</ul>
+			<h4>지원 분야</h4>
+			<ul>
+				<li>
+					<label><input type="radio" name="field" id="an"> 웹 퍼블리싱</label>
+				</li>
+				<li>
+					<label><input type="radio" name="field" id="pd"> 웹 애플리케이션 개발</label>
+				</li>
+				<li>
+					<label><input type="radio" name="field" id="abc"> 개발 환경 개선</label>
+				</li>
+			</ul>
+			<h3>지원 동기</h3>
+			<label>
+				<textarea id="motive" cols="60" rows="5" placeholder="본사 지원 동기를 간략히 써 주세요."></textarea>
+			</label>
+			<div class="button">
+				<input type="submit" value="접수하기">
+				<input type="reset" value="다시쓰기">
+			</div>
+>>>>>>> 0548461c83224694554a35fa7b6a7a7e494fbc71
 		</form>
 	</div>
 </body>

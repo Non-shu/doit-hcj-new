@@ -1,0 +1,13 @@
+#signup label{
+  float: left;
+  font-size: 13px;
+  width: 110px;
+}
+#signup input[required]{
+  border: 1px red solid;
+}
+#signup input[readonly]{
+  border: none;
+}
+
+

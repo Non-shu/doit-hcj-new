@@ -9,10 +9,37 @@
       height:150px;
     }
     /* Do it! 원하는 꼭짓점만 둥글게 처리하기 */
+    div:nth-of-type(1){
+      border:2px, solid, blue;
+      border-top-left-radius: 20px;
+      border-top-right-radius: 20px;
+      }
+      div:nth-of-type(2){
+        border:4px, dotted, red;
+        border-top-right-radius: 10px;
+        border-bottom-right-radius: 30px;
+        border-top-left-radius: 50px;
+      }
+      div:nth-child(3) {
+        border:3px, solid, aqua;
+        background-color: aquamarine;
+        border-top-left-radius: 40%;
+        border-bottom-right-radius: 70%;
+      }
+      div:nth-child(4) {
+        border: 1px solid purple;
+        background-color: #ccc;
+        border-top-right-radius: 20%;
+        border-bottom-right-radius: 30%;
+        }
+
     
 	</style>
 </head>
 <body>
+  <div></div>
+  <div></div>
+  <div></div>
   <div></div>
 </body>
 </html>

@@ -16,18 +16,36 @@
       margin:20px;
       background:url('images/bg4.jpg') no-repeat left top;
     }
+    #bg1{
+      background-size: auto;
+     }
+    #bg2{
+      background-size: 200px;
+    }
+    #bg3{
+      background-size: 50%;
+    }
+    #bg4{
+      background-size: 100% 100%;
+    }
+    #bg5{
+      background-size: contain;
+    }
+    #bg6{
+      background-size: cover;
+    }
     /* Do it! #bg1 ~ #bg6 스타일을 사용해 배경 이미지 크기 조절하기 */
 
   </style>
 </head>
 <body>
   <div id="container">
-    <div class="box" id="bg1"></div>
-    <div class="box" id="bg2"></div>
-    <div class="box" id="bg3"></div>
-    <div class="box" id="bg4"></div>
-    <div class="box" id="bg5"></div>
-    <div class="box" id="bg6"></div>
+    <div class="box" id="bg1"></div> <!-- 원래 배경 이미지 크기로 -->
+    <div class="box" id="bg2"></div> <!-- 너비 200px -->
+    <div class="box" id="bg3"></div> <!-- 너비는 요소 기준 50% -->
+    <div class="box" id="bg4"></div> <!-- 요소의 너비,높이를 100%에 맞춤 -->
+    <div class="box" id="bg5"></div> <!-- 요소의 배경이미지가 다 보이게  -->
+    <div class="box" id="bg6"></div> <!-- 요소를 완전히 덮도록 배경 표시-->
   </div>
  </body>
 </html>

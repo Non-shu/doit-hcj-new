@@ -8,6 +8,16 @@ body {
 	padding: 20px;	
 }
 
+#signup button {	
+	border: 1px solid #222;
+	border-radius: 20px;
+	display: block;
+	font-size: 16px;
+	letter-spacing: 1px;
+	margin: auto;
+	padding: 7px 25px;
+}
+
 #signup {
 	background:#fff;
 	border:1px solid #222;
