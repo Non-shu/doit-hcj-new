@@ -20,11 +20,22 @@
       position: relative;
     }
 
-    /* Do it! 단락의 첫번째 글자에 스타일 지정하기 */
+    /* Do it! 단락의 첫번째 글자에 스타일 지정하기 
+    가상요소는 ::<< 두개붙여서 적용함*/
     p::first-letter{
       font-size: 2em;
       font-weight: bold;
      }
+
+     h1::before{
+      content: "*";
+      color: red;
+      margin-right: 5px;
+     }
+     h1::after{
+      content: "🎈";
+      margin-left: 10px;
+    }
   </style>
 </head>
 <body>
